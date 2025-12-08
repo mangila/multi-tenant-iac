@@ -1,0 +1,117 @@
+########################################
+# Terraform
+########################################
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore override files as they are usually local
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan files
+*.tfplan
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+
+########################################
+# Python
+########################################
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+venv*/
+env*/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Python-specific logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+.env.*
+*.env
+
+
+########################################
+# Ansible
+########################################
+# Sensitive inventory files
+inventory/*.ini
+inventory/*.yaml
+inventory/*.yml
+
+# Vault passwords
+.vault_pass.txt
+.vault_pass
+*.vault_pass
+
+# Retry files
+*.retry
+
+# Cached facts
+facts/
+fact_cache/
+*.fact_cache/
+
+# Ansible temporary directories
+~/.ansible/tmp/
+.ansible/tmp/
+
+
+########################################
+# General
+########################################
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
