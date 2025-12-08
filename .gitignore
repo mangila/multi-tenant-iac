@@ -100,6 +100,7 @@ fact_cache/
 # Ansible temporary directories
 ~/.ansible/tmp/
 .ansible/tmp/
+.ansible
 
 
 ########################################
