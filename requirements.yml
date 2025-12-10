@@ -1,1 +1,10 @@
---
+---
+collections:
+  # https://galaxy.ansible.com/ui/repo/published/cloud/terraform/
+  - name: cloud.terraform
+    version: 4.0.0
+
+roles:
+  # https://galaxy.ansible.com/geerlingguy/docker/
+  - name: geerlingguy.docker
+  - version: 7.9.0
